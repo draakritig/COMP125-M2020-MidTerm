@@ -1,5 +1,4 @@
 /* custom syle sheet */
-
 .navbar {
     opacity: 0.8;
 }
@@ -7,11 +6,12 @@
 #MainTitle {
     font-size: 4em;
     color: #5690CF;
-    padding-top: 1em
+    padding-top: 0.5em;
+    text-align: left;
 }
 
 main {
-    padding-top: 4.375em
+    padding-top: 3 em;
 }
 
 article, section {
@@ -20,4 +20,12 @@ article, section {
 
 #contactForm {
     margin-bottom: 4em;
+}
+#pictureSlides{
+    float: inherit;
+    padding-right: 4.375em;
+    padding-left: 4.375em;
+}
+#mainContent{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }

@@ -3,7 +3,9 @@
 * Website Name- Travel Report
 * Description- This file provides the functionality to the index page
 */
+/*------------MAIN PAGE--------------- */
 // Adding paragraphs to the index page
+"use strict";
 addingParagraphs();
 function addingParagraphs () {
 "use strict";
@@ -56,6 +58,32 @@ if(document.getElementById("Gavdos"))
 {let Gavdos = `Near the more well-known Crete, Gavdos is the most southern island in Greece — and the most southern spot in Europe discounting the Canaries. Only accessible by ferry, the remote island has only about 50 permanent residents, and can feel like your private playground. Local legend has it that the island was the home of goddess Calypso, who kept Odysseus prisoner here. Today, a favorite tourist activity is to visit the spot believed to be her cave. Be warned, you won't find any luxury hotels here. While the romantically under-developed, super laid back island has a number of rooms for rent, those are limited, as the real draw here for many is the free, seaside camping.`;
 document.getElementById("Gavdos").innerHTML = Gavdos;
 }
-
 };
+/*--------------CONTACT FORM-------------------*/
+// The contact form data is stored in variables
+storingAndDisplayingData();
+function storingAndDisplayingData(){
+let firstName = document.getElementById("firstName").value;
+let lastName = document.getElementById("lastName").value;
+let contactNumber = document.getElementById("contactNumber").value;
+let email = document.getElementById("email").value;
+let yourMessage = document.getElementById("yourMessage").value;
+// Displaying the user-entered form data on Console
+console.log(`%c ~~~~~~~CONTACT FORM DATA~~~~~~~~~`, "font-weight: bold; font-size: 20px; color: darkblue; background-color: lightcyan");
+console.log(`%c First Name: ${firstName}` , "font-size: 15px; color: cyan; background-color: navy");
+console.log(`%c Last Name: ${lastName}` , "font-size: 15px; color: cyan; background-color: navy");
+console.log(`%c Contact Number: ${contactNumber}` , "font-size: 15px; color: cyan; background-color: navy");
+console.log(`%c Email Address: ${email}` , "font-size: 15px; color: cyan; background-color: navy");
+console.log(`%c Your Message: ${yourMessage}` , "font-size: 15px; color: cyan; background-color: navy");
+}
+document.getElementById("sendButton").addEventListener("click", function(event){
+    event.preventDefault(); //preventing default action of submit button
+    storingAndDisplayingData(); // calling function which stores and displays the form data on console
+});
+
+//carousel
+$('.carousel').carousel()
+
+    
+            
 
