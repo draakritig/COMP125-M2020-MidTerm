@@ -1,4 +1,4 @@
-/* File Name- COMP125- Mid-Term
+/* File Name- COMP125- MidTerm Test
 * Author's Name- Aakriti Gupta
 * Website Name- Travel Report
 * Description- This file provides the functionality to the index page

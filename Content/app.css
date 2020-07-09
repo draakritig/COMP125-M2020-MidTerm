@@ -1,4 +1,8 @@
-/* custom syle sheet */
+/* File Name- COMP125- MidTerm Test
+* Author's Name- Aakriti Gupta
+* Website Name- Travel Report
+* Description- This file consists of styling attributes related to the index page.
+*/
 .navbar {
     opacity: 0.8;
 }
@@ -7,18 +11,19 @@
     font-size: 4em;
     color: #5690CF;
     padding-top: 0.5em;
-    text-align: left;
+   
 }
 
 main {
     padding-top: 3 em;
+    background-color: lightcyan;
 }
 
 article, section {
     font-size: 1.35em;
 }
 
-#contactForm {
+#contactForm{
     margin-bottom: 4em;
 }
 #pictureSlides{
@@ -29,3 +34,4 @@ article, section {
 #mainContent{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
+
